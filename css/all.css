@@ -1,0 +1,509 @@
+/* SCSS Compiled */
+/***************************************************              GENERAL RESET STYLES             ***************************************************/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+*:focus {
+  outline: none; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  border-style: none;
+  max-width: 100%; }
+
+form fieldset {
+  margin: 0;
+  padding: 0;
+  border: none; }
+
+input, textarea, select {
+  vertical-align: middle;
+  color: #000;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+input::-webkit-input-placeholder {
+  color: #ebedec; }
+
+input:focus::-webkit-input-placeholder {
+  color: #ebedec; }
+
+/*@media*/
+/* @media (min-width: 1921px){} 													QHD \ UHD
+@media (min-width: 1600px) and (max-width: 1919px) {}	HD +
+@media (min-width: 1440px) and (max-width: 1599px) {}	macbook
+@media (min-width: 1360px) and (max-width: 1439px) {}	HD
+@media (min-width: 1280px) and (max-width: 1359px) {} IPAD2
+@media (min-width: 1024px) and (max-width: 1279px) {} IPAD
+@media (min-width: 896px) and (max-width: 1023px) {}	Ip Xs max horizontal
+@media (min-width: 812px) and (max-width: 895px) {}		Ip Xs horizontal
+@media (min-width: 768px) and (max-width: 811px) {}		Tablet
+@media (min-width: 736px) and (max-width: 767px) {}		Ip 6,7,8 Plus horizontal
+@media (min-width: 667px) and (max-width: 735px) {}		Ip 6,7,8 horizontal
+@media (min-width: 568px) and (max-width: 666px) {}		Ip 5 horizontal
+@media (min-width: 480px) and (max-width: 567px) {}		Ip 4 horizontal
+@media (min-width: 414px) and (max-width: 479px) {}		Ip 6,7,8
+@media (min-width: 320px) and (max-width: 413px) {}		Ip 4,5 */
+/*@media end*/
+/* wrapper */
+#wrapper {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #ffcc66; }
+
+.layout1 {
+  margin: 0 auto;
+  position: relative;
+  width: 922px;
+  background: #ff9933;
+  -webkit-box-shadow: 0px 0px 14px 8px #C88537;
+  box-shadow: 0px 0px 14px 8px #C88537; }
+
+.layout2 {
+  margin: 0 auto;
+  position: relative;
+  width: 912px;
+  background: #ffffff; }
+
+.layout3 {
+  margin: 0 auto;
+  position: relative;
+  width: 894px; }
+
+main {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative; }
+
+#content {
+  position: relative; }
+
+#sidebar {
+  position: relative; }
+
+aside {
+  position: relative; }
+
+header {
+  width: 100%;
+  height: 126px;
+  display: block;
+  position: relative; }
+
+.logo {
+  display: inline-block;
+  overflow: visible;
+  position: relative;
+  width: 290px;
+  height: 104px;
+  top: 0;
+  left: -5px;
+  border: 0;
+  margin: 0;
+  float: left;
+  z-index: 3; }
+  .logo h1 {
+    display: inline-block;
+    text-decoration: none;
+    width: 290px;
+    height: 104px;
+    background-image: url(../images/logo.png); }
+    .logo h1 a {
+      display: inline-block;
+      text-decoration: none;
+      width: 290px;
+      height: 104px;
+      text-indent: -3333px; }
+
+.podlogka_head {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  margin-top: -104px;
+  z-index: 2; }
+  .podlogka_head img {
+    display: inline-block;
+    overflow: hidden;
+    position: relative; }
+
+nav {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 495px;
+  height: 115px;
+  float: right;
+  margin-top: -130px;
+  background-image: url(../images/Podlogka_nav.png);
+  z-index: 1; }
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    float: right;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    margin: 62px 58px auto auto;
+    left: 51px;
+    width: 442px;
+    height: 22px; }
+    nav ul li {
+      display: inline-block;
+      overflow: hidden;
+      position: relative;
+      height: 22px;
+      margin: 0 23px 0 0; }
+      nav ul li a {
+        display: inline-block;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        width: 100%;
+        height: 22px; }
+        nav ul li a .triangle {
+          display: inline-block;
+          overflow: hidden;
+          position: relative;
+          top: -4px;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 5.5px 0 5.5px 9px;
+          border-color: transparent transparent transparent #ffffff; }
+        nav ul li a span {
+          display: inline-block;
+          overflow: hidden;
+          position: relative;
+          color: #ffffff;
+          margin-left: -4px;
+          font-family: Tahoma;
+          font-size: 21px;
+          font-weight: 400; }
+
+#content {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 70%;
+  height: 658px;
+  margin-top: 0; }
+  #content .company_profile {
+    display: block;
+    overflow: hidden;
+    width: 660px;
+    top: 14px; }
+    #content .company_profile h3 {
+      display: block;
+      overflow: hidden;
+      width: 100%;
+      height: 25px;
+      color: #ff6600;
+      font-family: Tahoma;
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 18px;
+      margin-top: 10px; }
+    #content .company_profile p {
+      display: block;
+      overflow: hidden;
+      color: #333333;
+      font-family: Tahoma;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-top: 10px; }
+      #content .company_profile p span {
+        font-weight: bold; }
+    #content .company_profile a {
+      display: inline-block;
+      position: relative;
+      overflow: hidden;
+      margin-top: 12px; }
+      #content .company_profile a img {
+        display: inline-block;
+        position: relative;
+        overflow: hidden; }
+      #content .company_profile a span {
+        display: block;
+        overflow: hidden;
+        color: #ff6600;
+        font-family: Tahoma;
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: underline;
+        display: inline-block; }
+  #content .company_background {
+    display: block;
+    overflow: hidden;
+    width: 660px;
+    margin-top: 46px; }
+    #content .company_background h3 {
+      display: block;
+      overflow: hidden;
+      width: 100%;
+      height: 25px;
+      color: #ff6600;
+      font-family: Tahoma;
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 18px; }
+    #content .company_background p {
+      display: block;
+      overflow: hidden;
+      color: #333333;
+      font-family: Tahoma;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-top: 10px;
+      width: 570px; }
+      #content .company_background p span {
+        font-weight: bold; }
+    #content .company_background a {
+      display: inline-block;
+      position: relative;
+      overflow: hidden;
+      margin-top: 16px; }
+      #content .company_background a img {
+        display: inline-block;
+        position: relative;
+        overflow: hidden; }
+      #content .company_background a span {
+        display: block;
+        overflow: hidden;
+        color: #ff6600;
+        font-family: Tahoma;
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: underline;
+        display: inline-block; }
+
+#sidebar {
+  display: inline-block;
+  position: relative;
+  overflow: visible;
+  float: right;
+  width: 239px;
+  height: 617px;
+  margin: -84px -9px 0 0;
+  top: 50px;
+  background-image: url(../images/sidebar_background.png);
+  background-size: 100%; }
+
+.text {
+  display: block;
+  position: relative;
+  overflow: visible;
+  width: 239px;
+  margin-top: 26px;
+  margin-right: 9px; }
+  .text h2 {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    color: #663300;
+    float: right;
+    margin-top: 26px;
+    margin-right: 4px;
+    font-family: Tahoma;
+    font-size: 42px;
+    font-weight: 400; }
+  .text ul {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    float: right;
+    width: 239px;
+    height: 210px;
+    margin-top: 20px; }
+    .text ul li {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      float: right;
+      width: 239px;
+      margin-bottom: 20px; }
+      .text ul li a {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        width: 239px;
+        float: right; }
+        .text ul li a span {
+          display: block;
+          float: right;
+          color: #ff9d3c;
+          font-family: Tahoma;
+          font-size: 23px;
+          font-weight: 400;
+          margin-right: 9px;
+          text-decoration: underline; }
+  .text img {
+    display: block;
+    position: relative;
+    overflow: visible;
+    width: 230px;
+    height: 306px;
+    margin: 0 0 auto auto;
+    top: -13px; }
+
+footer {
+  width: 100%;
+  height: 224px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden; }
+  footer .footer_images {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 305px; }
+    footer .footer_images .kuvshin {
+      display: inline-block;
+      overflow: hidden;
+      position: relative;
+      width: 50%;
+      float: left;
+      margin: 0 auto auto 0; }
+      footer .footer_images .kuvshin img {
+        display: block;
+        overflow: hidden;
+        position: relative; }
+    footer .footer_images .pasta {
+      display: inline-block;
+      overflow: hidden;
+      position: relative;
+      width: 50%;
+      height: 224px;
+      float: right;
+      z-index: 2; }
+      footer .footer_images .pasta .makaroni_1 {
+        display: inline-block;
+        overflow: hidden;
+        position: relative;
+        float: right;
+        margin-right: 268px;
+        z-index: 1; }
+        footer .footer_images .pasta .makaroni_1 img {
+          display: block;
+          overflow: hidden;
+          position: relative; }
+      footer .footer_images .pasta .makaroni_02 {
+        display: inline-block;
+        overflow: hidden;
+        position: absolute;
+        float: right;
+        bottom: 0;
+        right: -34px;
+        top: 44px;
+        z-index: 2; }
+        footer .footer_images .pasta .makaroni_02 img {
+          display: block;
+          overflow: hidden;
+          position: relative; }
+  footer .futer {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin-top: -126px;
+    z-index: 3; }
+    footer .futer img {
+      display: block;
+      overflow: hidden;
+      position: relative; }
+  footer .podlogka-futer {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    float: right;
+    width: 269px;
+    height: 54px;
+    background-image: url(../images/podlogka-futer.png);
+    margin: -54px auto 0 232px;
+    z-index: 1; }
+    footer .podlogka-futer span {
+      display: inline-block;
+      overflow: hidden;
+      position: relative;
+      margin: 20px auto auto 50px;
+      color: #ffffff;
+      font-family: Tahoma;
+      font-size: 13px;
+      font-weight: 400;
+      text-decoration: none;
+      margin-left: 102px;
+      margin-top: 18px; }
+    footer .podlogka-futer a {
+      display: inline-block;
+      overflow: hidden;
+      position: relative;
+      color: #ffffff;
+      cursor: pointer;
+      font-family: Tahoma;
+      font-size: 13px;
+      font-weight: 400;
+      text-decoration: underline; }

@@ -1,0 +1,108 @@
+.logo {
+  display: inline-block;
+  overflow: visible;
+  position: relative;
+  width: 290px;
+  height: 104px;
+  top: 0;
+  left: -5px;
+  border: 0;
+  margin: 0;
+  float: left;
+  z-index: 3; }
+  .logo h1 {
+    display: inline-block;
+    text-decoration: none;
+    width: 290px;
+    height: 104px;
+    background-image: url(../images/logo.png); }
+    .logo h1 a {
+      display: inline-block;
+      text-decoration: none;
+      width: 290px;
+      height: 104px;
+      text-indent: -3333px; }
+
+.podlogka_head {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  margin-top: -104px;
+  z-index: 2; }
+  .podlogka_head img {
+    display: inline-block;
+    overflow: hidden;
+    position: relative; }
+
+.podlogka_nav {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  float: right;
+  margin-top: -130px;
+  z-index: 1; }
+  .podlogka_nav img {
+    display: block;
+    overflow: hidden;
+    position: relative; }
+
+nav {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 384px;
+  height: 18px;
+  float: right;
+  margin: 0 0 0 0;
+  z-index: 3; }
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    float: right;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline; }
+    nav ul li {
+      display: inline-block;
+      overflow: hidden;
+      position: relative;
+      height: 22px;
+      margin: 0 0 0 -4px; }
+      nav ul li a {
+        display: inline-block;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        width: 100%;
+        height: 22px; }
+        nav ul li a .triangle {
+          display: inline-block;
+          overflow: hidden;
+          position: relative;
+          width: 0;
+          height: 0;
+          color: #ffffff;
+          border-style: solid;
+          border-width: 5.5px 0 5.5px 9px;
+          border-color: transparent transparent transparent #007bff; }
+        nav ul li a span {
+          display: inline-block;
+          overflow: hidden;
+          position: relative;
+          margin-left: 20px;
+          color: #ffffff;
+          font-family: Tahoma;
+          font-size: 21px;
+          font-weight: 400; }
