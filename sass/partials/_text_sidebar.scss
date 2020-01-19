@@ -1,0 +1,56 @@
+.text{
+	display: block;
+	position: relative;
+	overflow: visible;
+	width: 239px;
+	margin-top: 26px;
+	margin-right: 9px;
+	h2{
+		display: block;
+		position: relative;
+		overflow: hidden;
+		color: #663300;
+		float: right;
+		margin-top: 26px;
+		margin-right: 4px;
+		font-family: Tahoma;
+		font-size: 42px;
+		font-weight: 400;
+	}
+	ul{
+		display: block;
+		position: relative;
+		overflow: hidden;
+		float: right;
+		width: 239px;
+		height: 210px;
+		margin-top: 20px;
+		li{
+			display: block;
+			position: relative;
+			overflow: hidden;
+			float: right;
+			width: 239px;
+			margin-bottom: 20px;
+			a{
+				display:  block;
+				position: relative;
+				overflow: hidden;
+				width: 239px;
+				float: right;
+				span{
+					@include a_styles_sidebar;
+				}
+			}
+		}
+	}
+	img{
+		display: block;
+		position: relative;
+		overflow: visible;
+		width: 230px;
+		height: 306px;
+		margin: 0 0 auto auto;
+		top: -13px;
+	}
+}

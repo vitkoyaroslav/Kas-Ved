@@ -1,0 +1,72 @@
+#content{
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	width: 70%;
+	height: 658px;
+	margin-top: 0;
+	.company_profile{
+		display: block;
+		overflow: hidden;
+		width: 660px;
+		top: 14px;
+		h3{
+			@include h3_styles;
+			margin-top: 10px;
+		}
+		p{
+			@include p_styles;
+			margin-top: 10px;
+			span{
+				font-weight: bold;
+			}
+		}
+		a{
+			display: inline-block;
+			position: relative;
+			overflow: hidden;
+			margin-top: 12px;
+			img{
+				display: inline-block;
+				position: relative;
+				overflow: hidden;
+			}
+			span{
+				@include a_styles;
+				display: inline-block;
+			}
+		}
+	}
+	.company_background{
+		display: block;
+		overflow: hidden;
+		width: 660px;
+		margin-top: 46px;
+		h3{
+			@include h3_styles;
+		}
+		p{
+			@include p_styles;
+			margin-top: 10px;
+			width: 570px;
+			span{
+				font-weight: bold;
+			}
+		}
+		a{
+			display: inline-block;
+			position: relative;
+			overflow: hidden;
+			margin-top: 16px;
+			img{
+				display: inline-block;
+				position: relative;
+				overflow: hidden;
+			}
+			span{
+				@include a_styles;
+				display: inline-block;
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+@mixin h3_styles {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 25px;
+	color: $color_orange;
+	font-family: Tahoma;
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 18px;
+}
+@mixin p_styles {
+	display: block;
+	overflow: hidden;
+	color: $color_p;
+	font-family: Tahoma;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+}
+@mixin a_styles {
+display: block;
+overflow: hidden;
+color: $color_orange;
+font-family: Tahoma;
+font-size: 15px;
+font-weight: bold;
+text-decoration: underline;
+}
+@mixin a_styles_sidebar {
+display:  block;
+float: right;
+color: 	$color_a_sidebar;
+font-family: Tahoma;
+font-size: 23px;
+font-weight: 400;
+margin-right: 9px;
+text-decoration: underline;
+}
